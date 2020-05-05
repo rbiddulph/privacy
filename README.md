@@ -31,6 +31,8 @@
 
 <h2>Advertising Partners Privacy Policies</h2>
 
+<p>We use Admob by Google to serve advertising in our applications.</p>
+
 <p>Third-party ad servers or ad networks uses technologies like cookies that are used in their respective advertisements that appear in our apps. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalise the advertising content that you see on websites or apps that you visit.</p>
 
 <p>Note that we have no access to or control over data that is used by third-party advertisers, however you are able to change your consent to personalised advertising from within our apps.</p>

@@ -39,6 +39,12 @@
 
 <p>Our Privacy Policy does not apply to other advertisers or apps. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
 
+<p>Policies of third parties in our apps:</p>
+<ul>
+  <li><a href="https://policies.google.com/privacy">Google including Admob</li>
+  <li><a href="https://firebase.google.com/terms">Firebase and Crashlytics</li>
+</ul>
+
 <h2>CCPA Privacy Rights</h2>
 
 <p>Under the CCPA, among other rights, California consumers have the right to:</p>
@@ -64,3 +70,9 @@
 <p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
 
 <p>We do not knowingly collect any Personal Identifiable Information from children under the age of 13.</p>
+
+<h2>Updates</h2>
+
+<p>This policy may be updated at any time to reflect changes in the app and from feedback.</p>
+
+<p>Last updated May 2020</p>

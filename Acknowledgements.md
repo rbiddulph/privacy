@@ -1,25 +1,5 @@
 <html>
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'Roboto', sans-serif;
-        margin-left: 1em;
-        margin-right: 1em;
-        }
-    </style>
-    <style>
-     h3 {
-        display: block;
-        font-family:'Roboto', sans-serif;
-        font-size: 1.2em;
-        margin-top: 1em;
-        margin-bottom: 1em;
-        margin-left: 0;
-        margin-right: 0;
-        font-weight: bold;
-     }
-    </style>
 </head>
 <body>
 <p>&nbsp;</p>

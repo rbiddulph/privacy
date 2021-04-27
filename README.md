@@ -31,7 +31,7 @@
 
 <h2>Advertising Partners Privacy Policies</h2>
 
-<p>We use Admob by Google to serve advertising in our applications.</p>
+<p>We use Admob by Google and Mopub by Twitter to serve advertising in our applications.</p>
 
 <p>Third-party ad servers or ad networks uses technologies like cookies that are used in their respective advertisements that appear in our apps. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalise the advertising content that you see on websites or apps that you visit.</p>
 
@@ -77,4 +77,4 @@
 
 <p>This policy may be updated at any time to reflect changes in the app and from feedback.</p>
 
-<p>Last updated May 2020</p>
+<p>Last updated April 2021</p>

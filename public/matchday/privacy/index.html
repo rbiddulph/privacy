@@ -28,48 +28,30 @@
         <p class="updated">Effective 18 September 2026</p>
       </section>
       <article class="legal-card">
-        <h2>1. Who this policy covers</h2>
-        <p>MCFCBot Matchday is an independent community app built on Reddit’s Developer Platform. This policy applies when the app is installed in a supported Reddit community or when a moderator uses its controls.</p>
-        <p>The app is not affiliated with, endorsed by or operated by Reddit, Manchester City Football Club, ESPN or any football competition or data provider.</p>
+        <h2>1. About this app</h2>
+        <p>MCFCBot Matchday is an independent app built on Reddit’s Developer Platform. It creates and maintains football match threads for communities where it is installed.</p>
+        <p>The app is not affiliated with, endorsed by or operated by Reddit, Manchester City Football Club or any football data provider.</p>
 
-        <h2>2. Information the app processes</h2>
-        <p>The app processes only the information needed to run its match-thread service:</p>
-        <ul>
-          <li>The name and configuration of the Reddit community where it is installed.</li>
-          <li>Fixture identifiers, teams, competitions, kick-off times, scores, events, line-ups, statistics and related football information obtained from configured sports-data services.</li>
-          <li>Reddit identifiers and links for posts and comments created or managed by the app, together with their thread type and lifecycle state.</li>
-          <li>Moderator account and community context supplied by Reddit when a moderator opens or uses an app control, solely to authorise that action.</li>
-          <li>Operational information such as scheduled-job state, provider status, request counts, failures and update timestamps.</li>
-        </ul>
-        <p>The app does not require users to create a separate account, provide an email address or supply payment information. It does not build profiles of supporters or retain the text of ordinary user comments.</p>
+        <h2>2. Information we process</h2>
+        <p>The app processes limited community, post and operational information supplied by Reddit. This includes community settings, identifiers for content created by the app and the context needed to authorise moderator controls.</p>
 
-        <h2>3. How information is used</h2>
-        <p>Information is used to discover fixtures; create, update and reconcile pre-match, match and post-match threads; keep graphical match information current; avoid duplicate posts; update approved sidebar widgets; notify moderators of operational issues; and diagnose faults.</p>
+        <h2>3. How information is used and stored</h2>
+        <p>Information is used only to provide the match-thread service, prevent duplicate posts, maintain community features and diagnose problems.</p>
+        <p>App settings and service state are stored within Reddit’s Developer Platform and retained only for as long as they are needed to operate the app reliably.</p>
 
-        <h2>4. Storage and retention</h2>
-        <p>Application state is stored in Redis provided as part of Reddit’s Developer Platform. This includes fixture snapshots, app-created post identifiers, scheduler state, settings and operational status.</p>
-        <p>Fixture snapshots and post identifiers may be retained so historical threads continue to show the match they reference and so retries, restarts or provider changes do not create duplicates. Short-lived locks and processing markers expire automatically. Operational status records are either time-limited or replaced by newer status information.</p>
-        <p>The app does not operate an external user database and does not copy ordinary Reddit user content to a developer-controlled server.</p>
+        <h2>4. External services</h2>
+        <p>Reddit hosts the app and supplies the information it is authorised to use. The app also uses football data services to provide match information.</p>
+        <p>Cloudflare Pages hosts this policy website and may process routine web-request information under Cloudflare’s own privacy policy.</p>
 
-        <h2>5. External services</h2>
-        <ul>
-          <li><strong>Reddit and Devvit:</strong> Reddit hosts the app, supplies authorised Reddit data and stores app state. Reddit’s own policies apply to its processing.</li>
-          <li><strong>Sports-data providers:</strong> The app makes server-side requests to configured providers for football information. Those requests use fixture, team, competition and date information; Reddit usernames and user content are not sent to those providers.</li>
-          <li><strong>Cloudflare:</strong> Cloudflare Pages hosts this policy site and may process routine web-request information such as IP addresses and security logs under its own privacy policy.</li>
-        </ul>
+        <h2>5. Advertising and tracking</h2>
+        <p>The app does not sell personal information or use it for advertising. This website has no analytics, marketing cookies, forms or client-side tracking.</p>
 
-        <h2>6. Advertising, tracking and sale of data</h2>
-        <p>The app contains no advertising, marketing cookies or cross-site tracking. The app operator does not sell personal information. This legal site uses no analytics, forms or client-side scripts.</p>
+        <h2>6. Your choices and rights</h2>
+        <p>You can manage your Reddit content through Reddit’s normal controls and contact the moderators of the relevant community about an app-created thread. Depending on where you live, you may also have rights relating to your personal information.</p>
+        <p>Requests about information controlled by Reddit should be directed to Reddit. Questions about this app can be sent by <a href="https://www.reddit.com/message/compose/?to=/r/mcfcbot">modmail to r/mcfcbot</a>.</p>
 
-        <h2>7. Your choices and rights</h2>
-        <p>Reddit users can control their Reddit content through Reddit’s normal tools and can contact the moderators of the relevant community about an app-created thread. Depending on where you live, you may also have rights concerning personal information, including access, correction, deletion, restriction or objection.</p>
-        <p>Requests about information controlled by Reddit should be directed to Reddit. Questions specifically about this app can be sent by <a href="https://www.reddit.com/message/compose/?to=/r/mcfcbot">modmail to r/mcfcbot</a>.</p>
-
-        <h2>8. Children</h2>
-        <p>The app is not directed at children and does not knowingly collect information from children outside the information Reddit makes available under its own services and policies.</p>
-
-        <h2>9. Changes to this policy</h2>
-        <p>This policy may be updated when the app’s functionality, providers or legal obligations change. The effective date above identifies the current version.</p>
+        <h2>7. Changes</h2>
+        <p>We may update this policy if the app or its legal obligations change. The effective date above identifies the current version.</p>
       </article>
     </main>
     <footer class="site-footer">

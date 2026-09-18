@@ -1,26 +1,23 @@
-# Cloudflare Workers static-site deployment
+# Cloudflare Pages deployment
 
-This repository contains legacy app policies at its root and a separate static legal site in public/ for the MCFCBot Devvit apps. Cloudflare's current repository-import flow deploys this as a Worker with Static Assets.
+The MCFCBot legal site is a static Cloudflare Pages project connected to `rbiddulph/privacy`.
 
-On the Set up your application screen, use:
+Use these build settings:
 
-- Repository: rbiddulph/privacy
-- Production branch: master
-- Build command: leave blank
-- Builds for non-production branches: off unless preview builds are wanted
-- Protect with Cloudflare Access: off
+- Production branch: `master`
+- Build command: `exit 0`
+- Build output: `public`
 - Root directory: leave blank
-- Deploy command: leave the default npx wrangler deploy
-- Token: create automatically
-- Variables: none
+- Build cache: optional
+- Environment variables: none
 
-The committed wrangler.jsonc names the Worker mcfcbot and serves the public/ directory. The small server-side Worker adds security headers; it does not use cookies, analytics, forms or client-side scripts.
+The build output setting is important: Pages must upload `public/`, not the repository root. Automatic production deployments can remain disabled when releases should be manual.
 
 The expected policy paths are:
 
-- /matchday/privacy/
-- /matchday/terms/
-- /moderation/privacy/
-- /moderation/terms/
+- `/matchday/privacy/`
+- `/matchday/terms/`
+- `/moderation/privacy/`
+- `/moderation/terms/`
 
-The site is intentionally static. Do not add analytics, cookies, forms, third-party fonts or client-side scripts without first updating the relevant privacy disclosures and security headers.
+The site is intentionally static. `public/_headers` supplies its security headers. Do not add analytics, cookies, forms, third-party fonts or client-side scripts without first updating the relevant privacy disclosures and security headers.

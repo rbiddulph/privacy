@@ -1,80 +1,55 @@
-<h1>Privacy Policy</h1>
+# Privacy Policy
 
-<p>One of our main priorities is the privacy of our users. This Privacy Policy document contains types of information that is collected and how we use it.</p>
+One of our main priorities is the privacy of our users. This Privacy Policy explains the types of information that our apps collect and how we use it.
 
-<p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
+If you have questions or require more information about this Privacy Policy, please contact us through the support route provided by the relevant app.
 
-<p>This Privacy Policy applies and is valid for visitors to our apps with regards to the information that they shared and/or collect. This policy is not applicable to any information collected offline or via channels other than this.</p>
+This Privacy Policy applies to information collected through our apps. It does not apply to information collected offline or through channels other than those apps.
 
-<h2>Consent</h2>
+## Consent
 
-<p>By using our apps, you hereby consent to our Privacy Policy and agree to its terms.</p>
+By using our apps, you acknowledge this Privacy Policy.
 
-<h2>Information we collect</h2>
+## Information we collect
 
-<p>If you contact us directly, we may receive additional information about you such as your name, email address, the contents of the message and/or attachments you may send us, and any other information you may choose to provide.</p>
+If you contact us directly, we may receive information such as your name, email address, the contents of your message, attachments you send and any other information you choose to provide.
 
-<h2>How we use your information</h2>
+**Treasure Hunt multiplayer accounts:** Treasure Hunt allows users to create multiplayer accounts using an email address. The email address is collected solely for authentication, account management, security and account recovery. It is not used for marketing, newsletters or promotional communication and is not sold.
 
-<p>We do not require you to provide any personal information to us to use our apps. Any anonymised data we do collect is used to:</p>
+## How we use information
 
-<ul>
-<li>Provide, operate, and maintain our apps</li>
-<li>Improve, personalise, and expand our apps</li>
-<li>Understand and analyse how you use our apps</li>
-<li>Develop new products, services, features, and functionality</li>
-</ul>
+Where our apps collect anonymised operational or analytics information, it is used to:
 
-<h2>Analytics</h2>
+- Provide, operate and maintain our apps.
+- Improve and develop our apps and their features.
+- Understand general usage and app performance.
+- Diagnose technical problems.
 
-<p>We follow a standard procedure of using app analytics. The majority of applications do this as part of their standard suite of analytics. The information collected by analytics include basic device information, date and time stamp, actions performed and how the app is performing. These are not linked to any information that is personally identifiable and we receive a completely anonymised report. The purpose of the information collected is for analysing trends and gathering demographic information.</p>
+Email addresses collected for Treasure Hunt multiplayer accounts are used exclusively for authentication, account management, security and account recovery.
 
-<h2>Advertising Partners Privacy Policies</h2>
+## Analytics
 
-<p>We use Admob by Google and Mopub by Twitter to serve advertising in our applications.</p>
+Some apps use analytics that may collect basic device information, timestamps, actions performed and app-performance information. Reports provided to us are not intended to identify individual users and are used to analyse trends and improve reliability.
 
-<p>Third-party ad servers or ad networks uses technologies like cookies that are used in their respective advertisements that appear in our apps. They automatically receive your IP address when this occurs. These technologies are used to measure the effectiveness of their advertising campaigns and/or to personalise the advertising content that you see on websites or apps that you visit.</p>
+## Advertising
 
-<p>Note that we have no access to or control over data that is used by third-party advertisers, however you are able to change your consent to personalised advertising from within our apps.</p>
+Some applications use Google AdMob to serve advertising. Advertising providers may receive information such as an IP address and may use device identifiers or similar technologies to deliver, measure or personalise advertisements. We do not control the data processed independently by third-party advertising providers. Where available, advertising consent and personalisation choices can be changed within the relevant app.
 
-<h2>Third Party Privacy Policies</h2>
+Relevant third-party policies include:
 
-<p>Our Privacy Policy does not apply to other advertisers or apps. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options. </p>
+- [Google, including AdMob](https://policies.google.com/privacy)
+- [Firebase and Crashlytics](https://firebase.google.com/terms)
 
-<p>Policies of third parties in our apps:</p>
-<ul>
-  <li><a href="https://policies.google.com/privacy">Google including Admob</li>
-  <li><a href="https://firebase.google.com/terms">Firebase and Crashlytics</li>
-</ul>
+## Your privacy rights
 
-<h2>CCPA Privacy Rights</h2>
+Depending on where you live, you may have rights to request access to, correction of or deletion of personal information, to restrict or object to processing, or to receive a portable copy of information. You may also have the right to opt out of the sale or sharing of personal information. We do not sell personal information.
 
-<p>Under the CCPA, among other rights, California consumers have the right to:</p>
-<ul>
-<li>Request that a business that collects a consumer's personal data disclose the categories and specific pieces of personal data that a business has collected about consumers.</li>
-<li>Request that a business delete any personal data about the consumer that a business has collected.</li>
-<li>Request that a business that sells a consumer's personal data, not sell the consumer's personal data.</li>
-</ul>
+## Children's information
 
-<h2>GDPR Data Protection Rights</h2>
+We do not knowingly collect personally identifiable information from children under 13. Parents or guardians who believe a child has provided this information should contact us so that we can take appropriate action.
 
-<p>We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:</p>
-<ul>
-<li>The right to access – You have the right to request copies of your personal data.</li>
-<li>The right to rectification – You have the right to request that we correct any information you believe is inaccurate. You also have the right to request that we complete the information you believe is incomplete.</li>
-<li>The right to erasure – You have the right to request that we erase your personal data, under certain conditions.</li>
-<li>The right to restrict processing – You have the right to request that we restrict the processing of your personal data, under certain conditions.</li>
-<li>The right to object to processing – You have the right to object to our processing of your personal data, under certain conditions.</li>
-<li>The right to data portability – You have the right to request that we transfer the data that we have collected to another organisation, or directly to you, under certain conditions.</li>
-</ul>
-<h2>Children's Information</h2>
+## Updates
 
-<p>Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.</p>
+This policy may be updated to reflect changes to our apps, services or legal obligations.
 
-<p>We do not knowingly collect any Personal Identifiable Information from children under the age of 13.</p>
-
-<h2>Updates</h2>
-
-<p>This policy may be updated at any time to reflect changes in the app and from feedback.</p>
-
-<p>Last updated April 2021</p>
+*Last updated September 2026.*

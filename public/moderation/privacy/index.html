@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy policy for the MCFCBot Moderation Reddit app.">
+    <title>Moderation privacy policy · MCFCBot</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="/">MCFCBot</a>
+        <nav class="site-nav" aria-label="Moderation legal documents">
+          <a href="/moderation/privacy/" aria-current="page">Privacy</a>
+          <a href="/moderation/terms/">Terms</a>
+          <a href="/matchday/privacy/">Matchday app</a>
+        </nav>
+      </div>
+    </header>
+    <main class="page-shell" id="main">
+      <section class="hero">
+        <p class="eyebrow">MCFCBot Moderation</p>
+        <h1>Privacy policy</h1>
+        <p class="lede">How the Moderation app processes Reddit information to assist authorised community moderators.</p>
+        <p class="updated">Effective 18 September 2026</p>
+      </section>
+      <article class="legal-card">
+        <div class="notice"><strong>Important:</strong> This app can support automated moderation when community moderators explicitly enable individual controls. Moderators remain responsible for their community’s rules and settings.</div>
+
+        <h2>1. Who this policy covers</h2>
+        <p>MCFCBot Moderation is an independent community-moderation app built on Reddit’s Developer Platform. This policy applies to moderators who configure it and Reddit users whose activity is processed in a community where it is installed.</p>
+        <p>The app is not affiliated with, endorsed by or operated by Reddit or Manchester City Football Club.</p>
+
+        <h2>2. Information the app processes</h2>
+        <p>Depending on the controls enabled by community moderators, the app may process:</p>
+        <ul>
+          <li>Reddit usernames, account identifiers, public account age and public karma information.</li>
+          <li>Whether an account is a Reddit administrator, a current moderator or an approved user of the community.</li>
+          <li>Public posting and commenting history needed to estimate whether an account is associated with the community or with relevant football communities.</li>
+          <li>The text, title, link type, flair and metadata of a new post or comment when needed to apply configured keyword, notice, lockdown or posting rules.</li>
+          <li>Content identifiers, permalinks, timestamps, classification results, evidence counts, matched-rule summaries, moderation decisions, errors and reversal outcomes.</li>
+          <li>The username or account identifier of a moderator who changes a protected setting or reverses an app-created moderation action.</li>
+          <li>Community settings, operational status and aggregate moderation counters.</li>
+        </ul>
+        <p>Post and comment text may be inspected when an event is processed, but raw content bodies and public activity bodies are not retained in the app’s user-classification or moderation records. Stored records contain identifiers, bounded evidence counts, categories and decision summaries.</p>
+
+        <h2>3. How information is used</h2>
+        <p>Information is used to identify protected users; classify accounts for configured community-safety rules; detect configured text patterns; apply or simulate removals and bans; enforce optional lockdown, flair, match-time and post-match posting controls; post configured submission notices; prevent duplicate actions; support moderator review and reversal; and diagnose failures.</p>
+        <p>Moderators and approved users are treated as protected. Production actions require explicit settings and are restricted by the app to supported communities. Development installations produce diagnostics rather than destructive moderation actions.</p>
+
+        <h2>4. Automated decisions</h2>
+        <p>Where moderators enable enforcement, the app may automatically remove content or ban an account according to configured rules and the account classification available at that time. Lockdown and posting controls may remove content without banning the account.</p>
+        <p>Moderators can review recent decisions, restore app-removed content and reverse app-created bans. A moderator unban is recorded so that the next otherwise eligible automatic ban is skipped, while a separately required content removal may still occur. Users may appeal through the moderators of the community where the action occurred.</p>
+
+        <h2>5. Storage and retention</h2>
+        <p>Application state is stored in Redis provided as part of Reddit’s Developer Platform. The app applies the following limits:</p>
+        <ul>
+          <li>User classification records, observation counts and their bounded audit history are deleted after 30 days without a new observation.</li>
+          <li>Each user’s classification audit is limited to 20 entries, and the recent-user view is limited to 500 users.</li>
+          <li>Content processing and diagnostic markers expire after 7 days.</li>
+          <li>Recent ordinary moderation decisions and recent lockdown decisions are each limited to 500 records. Active app-created ban records may be retained longer so moderators can review or reverse them.</li>
+          <li>Lockdown session statistics expire after 90 days.</li>
+          <li>A consumed unban-grace record is deleted after 90 days. An unused record may remain until it is applied, replaced or no longer needed for safe ban reconciliation.</li>
+        </ul>
+
+        <h2>6. External services and sharing</h2>
+        <ul>
+          <li><strong>Reddit and Devvit:</strong> Reddit supplies authorised account, content and moderation information, hosts the app and stores its state. Reddit’s own policies apply to its processing.</li>
+          <li><strong>Moderator notifications:</strong> If moderators configure an external notification destination, concise moderation or operational messages may include a Reddit username, classification, decision reason, action, community name and Reddit permalink. Raw activity histories are not sent.</li>
+          <li><strong>Cloudflare:</strong> Cloudflare Pages hosts this policy site and may process routine web-request information such as IP addresses and security logs under its own privacy policy.</li>
+        </ul>
+        <p>The app operator does not sell personal information, use it for advertising or use it to train artificial-intelligence models.</p>
+
+        <h2>7. Legal basis and legitimate interests</h2>
+        <p>The app processes information to provide the moderation service requested by an authorised community and to support the legitimate interests of moderators and community members in enforcing published community rules, preventing abuse and maintaining safe discussion. These interests are balanced through protected-user checks, separate opt-in controls, bounded retention, moderator review and reversal tools.</p>
+
+        <h2>8. Your choices and rights</h2>
+        <p>You can appeal a moderation action through the moderators of the community where it occurred. Depending on where you live, you may also have rights to request access to, correction of or deletion of personal information, or to object to or restrict processing.</p>
+        <p>Requests concerning Reddit’s own data should be directed to Reddit. Questions specifically about the app can be sent by <a href="https://www.reddit.com/message/compose/?to=/r/mcfcbot">modmail to r/mcfcbot</a>. Please do not send passwords, API keys or other sensitive information.</p>
+
+        <h2>9. Security</h2>
+        <p>Secrets are stored using Reddit’s app settings and app controls require Reddit moderator context. No system can be guaranteed completely secure, but the app is designed to minimise stored data and external sharing.</p>
+
+        <h2>10. Children</h2>
+        <p>The app is not directed at children. It processes Reddit activity according to community moderation needs and Reddit’s own services and policies.</p>
+
+        <h2>11. Changes to this policy</h2>
+        <p>This policy may be updated when moderation capabilities, retention rules or legal obligations change. The effective date above identifies the current version.</p>
+      </article>
+    </main>
+    <footer class="site-footer">
+      <p><a href="/">All legal documents</a> · <a href="/moderation/terms/">Moderation terms of use</a></p>
+    </footer>
+  </body>
+</html>

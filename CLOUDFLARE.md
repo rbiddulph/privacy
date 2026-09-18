@@ -14,7 +14,7 @@ On the Set up your application screen, use:
 - Token: create automatically
 - Variables: none
 
-The committed wrangler.jsonc names the Worker mcfcbot-legal and serves the public/ directory. The small server-side Worker adds security headers; it does not use cookies, analytics, forms or client-side scripts.
+The committed wrangler.jsonc names the Worker mcfcbot and serves the public/ directory. The small server-side Worker adds security headers; it does not use cookies, analytics, forms or client-side scripts.
 
 The expected policy paths are:
 

@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "mcfcbot-legal",
+  "name": "mcfcbot",
   "compatibility_date": "2026-09-18",
   "main": "src/index.js",
   "assets": {
